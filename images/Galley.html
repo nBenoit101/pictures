@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Galley_files/styles.css">
+    <title>Galley</title>
+</head>
+<body>
+    <header>
+        <h1>Lions Gallery
+        </h1>
+    </header>
+
+    <main> 
+        <div class="class1">
+            <img class="image1" src="./Galley_files/the_lion_king_2021-wallpaper-2400x1350.jpeg" alt="">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aperiam, architecto inventore ullam, qui iste tempora quo necessitatibus minima at eaque laboriosam, quod nam? Asperiores voluptas adipisci sit iusto natus.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa atque doloremque commodi maxime laborum qui iusto, quam eum alias, voluptas esse? Maxime odio quisquam delectus numquam in veritatis deleniti quam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam possimus, perspiciatis non provident doloremque harum voluptatibus asperiores ratione aperiam in corrupti aut nulla alias dolores tempore necessitatibus quo. Incidunt.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium iusto sequi aliquam! Nemo at eum repellendus inventore? Aspernatur harum aliquid numquam quo quisquam. Dolore unde commodi nobis eius. Consectetur, quo!
+            </p>
+
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, soluta fuga sint quibusdam fugit illum impedit nulla suscipit recusandae. Officia hic cupiditate in dolor ab earum quas tempore nulla itaque.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium esse eveniet minus officia quidem eaque earum dolor consectetur autem, cupiditate dignissimos doloribus illum facere expedita eos! Voluptatem rerum dignissimos ut!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat deleniti repudiandae laborum voluptatum natus tempora dolores fuga nemo excepturi itaque. Voluptates ducimus libero aliquam neque eaque, distinctio nesciunt soluta minus!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptate tempora quae officia velit, quasi quaerat, laudantium ut, molestias impedit enim amet a. Architecto, perspiciatis quod tempore iste quas atque!
+            </p>
+            <img class="image2" src="./Galley_files/images.jpeg" alt="">
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

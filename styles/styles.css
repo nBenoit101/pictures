@@ -1,0 +1,58 @@
+header{
+
+    text-align: center;
+    padding: 25px 50px;
+    background-color: green;
+    color: white;
+
+}
+
+body{
+    max-width: 1000px;
+    margin: 0  auto;
+    border: 3px solid green;
+    background-color: white;
+    padding: 10px;
+}
+img{
+    padding: 10px;
+    max-width: 500px;
+}
+
+.image1{
+    max-width: 300px;
+}
+
+/* .image1{
+    max-width: 40%;
+    padding: 10px;
+
+}
+
+.image2{
+    max-width: 100%;
+    padding: 10px;
+}
+
+.image3{
+    padding:10px ;
+}
+
+.image4{
+    padding: 10px;
+}
+.image5{
+    padding: 10px;
+} */
+div{
+    display: flex;
+}
+
+footer{
+    color: white;
+    font-weight: bold;
+    padding: 20px ;
+    font-size: 100%;
+    text-align: center;
+    background-color: green;
+}
